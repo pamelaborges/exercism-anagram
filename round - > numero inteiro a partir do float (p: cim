@@ -1,0 +1,95 @@
+round - > numero inteiro a partir do float (p/ cima)
+trunc -> pega so a parte inteira
+
+
+todos os valores são verdadeiros exceto false ou nil
+atoms == symbol
+
+
+checagens
+
+is_<type>
+
+
+elixir as string já estão em utf-8
+
+
+as listas podem ter multiplos tipos e valores não exclusivos
+
+
+concatenação listas
+
+
+++
+-- (se você remover um valor inexistente ele não resultará em erro)
+
+
+
+
+Enum -> enumerador
+.at (pega valor da posição)
+
+
+hd - > primeiro elemento da list
+tl -> restante da list
+
+tuples {:hello, :word}
+
+
+elem( tuple, pos ) - > retorna elemento na posição
+
+tuple_size tuple -> retorna o tamanho
+
+put_elem(tuple, pos, new value)
+
+Tuple.to_list
+
+
+|> para passar o valor para a list
+
+
+div -> retorna inteiro da divisão
+
+rem -> retor da divisão
+
+
+
+case
+
+_ -> valor default
+
+
+
+^x -> verifica se a variavel foi definida
+
+
+cond -> checa resultado de execução
+
+quando identifica condição verdadeira ele sai do fluxo
+
+
+
+def method , do: -> função
+defp metodo privado
+
+mix -> bundler do elixir
+
+
+
+
+Para concatenação de String
+
+<> => operador de concatenação de String
+Ex :
+
+
+name = "word"
+
+"Hello " <> name
+
+
+
+
+Para definiçã de mapa utiliza-se  a definiçãod e porcentagem com
+%{}
+
